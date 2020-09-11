@@ -1,0 +1,134 @@
+*{
+  box-sizing: border-box;
+}
+
+:root{
+  --mainBlue: #0c0b20;
+  --lightBlue: #00a0d1;
+  --mainWhite: #ebebeb;
+  --mainDark: #0a0a0a;
+  --mainYellow: #927700;
+  --fontSize: 14px;
+}
+
+body{
+  min-height: 100vh;
+  font-family: "Montserrat", "Poppins" !important;
+  background-color: var(--mainWhite) !important;
+  font-size: var(--fontSize) !important;
+  color: black !important;
+}
+
+.NavBar{
+  background-color: #0c0b20 !important;
+}
+
+.link:hover{
+  transition: 200ms !important;
+  text-decoration: none !important;
+}
+
+.App {
+  text-align: center;
+}
+
+#logo{
+  font-family: 'dosis';
+  font-size: 20px;
+  text-decoration: underline;
+  letter-spacing: 5px;
+}
+
+.logo {
+  height: 40px;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.text-title{
+  font-family: 'montserrat';
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.text-blue{
+  color: rgb(0, 0, 58);
+}
+
+.text-bright{
+  color: var(--lightBlue);
+}
+
+#online{
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #00c400;
+}
+
+#loginBG{
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  margin-top: 5%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+#loginBG #login{
+  width: 500px;
+  min-height: 50%;
+  border: 2px solid rgb(112, 112, 112);
+  padding: 30px;
+  background-color: rgb(29, 38, 49);
+  color: white;
+  border-radius: 5px;
+}
+
+#loginBG div h1{
+  border-bottom: 1px solid whitesmoke;
+  font-weight: bold;
+}
+
+#loginBG div input{
+  width: 100%;
+  padding: 5px 20px;
+  outline: none;
+  background-color: black;
+  color: white;
+  border: 1px solid rgb(146, 146, 146);
+}
+
+#error{
+  font-size: 12px;
+  color: red;
+  line-height: 30px;
+}
+
+.details{
+  text-align: left !important;
+}
